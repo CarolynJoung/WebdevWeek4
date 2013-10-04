@@ -21,6 +21,17 @@
 			var add_value = parseFloat(calculator_input.val());
 			current_value = add_value + current_value;
 			calculator_input.val(current_value);
+
+		});
+		});
+
+			var current_value = 0;
+			calculator_input.val(current_value);
+
+		minus_button.on('click', function(){
+			var minus_value = parseFloat(calculator_input.val());
+			current_value = minus_value + current_value;
+			calculator_input.val(current_value);
 		});
 
 	});
@@ -31,7 +42,13 @@
 	<div id="name_place">Please enter your name to continue:</div>
 	<p>Name: <input type="text" name="name" id="name" placeholder="Enter name"/></p>
 
-	This is our calculator! Thanks for trying it out!
+	This is our
+
+
+
+
+
+	 calculator! Thanks for trying it out!
 
 	<p>
 		<input type="text" id="calculator_values">
